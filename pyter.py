@@ -214,7 +214,7 @@ def main():
         screen_surface.blit(temp, (0,0))
         
         pygame.display.update()
-        clock.tick(240) # so this doesnt turn my pc to a space heater
+        clock.tick(120) # so this doesnt turn my pc to a space heater
 
 # ------------------------------------------------------------------------------------
 def make_indices_array(shape):
